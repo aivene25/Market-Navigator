@@ -1,7 +1,7 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import createBottomTabNavigator from './App';
 
-AppRegistry.registerComponent('MarketNavigator', () => App);
+AppRegistry.registerComponent('MarketNavigator', () => createBottomTabNavigator );
 
 
 //Google maps api credentials
